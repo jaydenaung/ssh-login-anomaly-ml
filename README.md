@@ -39,7 +39,7 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-### 2) Demo
+### 2) Sanity check
 ```bash
 python ssh_anomaly.py peek --in sample_auth.log
 ``` 
@@ -89,3 +89,9 @@ python ssh_anomaly.py train --in <logfile> --model models/ssh_isoforest.pkl
 # Detect anomalies
 python ssh_anomaly.py detect --in <logfile> --model models/ssh_isoforest.pkl --out findings.json --q 0.97
 ```
+
+
+### Example Run
+Here’s an example run of the SSH Login Anomaly Detector:
+
+![Demo screenshot](img/1.png)
