@@ -1,3 +1,68 @@
+
+# ------------------------
+# Python
+# ------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.so
+
+# Virtual environment
+.venv/
+env/
+venv/
+ENV/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Jupyter / IPython
+.ipynb_checkpoints
+*.ipynb~
+.profile
+
+# ------------------------
+# Project artifacts
+# ------------------------
+# ML models
+models/
+*.pkl
+*.joblib
+
+# Output findings
+findings.json
+*.csv
+*.xlsx
+
+# Logs
+*.log
+*.out
+*.err
+
+# ------------------------
+# System / OS
+# ------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ------------------------
+# Docker
+# ------------------------
+docker-compose.override.yml
+.dockerignore
+
+# ------------------------
+# Editors / IDEs
+# ------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+*.bak
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
